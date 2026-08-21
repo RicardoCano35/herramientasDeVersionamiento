@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema STF - Frontend</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo STF">
+      <h1>Sistema STF</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#servicios">Servicios Técnicos</a></li>
+        <li><a href="#facturacion">Facturación</a></li>
+        <li><a href="#reportes">Reportes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Pantalla de inicio -->
+  <section class="hero">
+    <h2>Bienvenido al sistema STF</h2>
+    <p>Gestione clientes, servicios técnicos y facturación de manera eficiente.</p>
+    <button>Ingresar</button>
+  </section>
+
+  <!-- Módulo Clientes -->
+  <section id="clientes">
+    <h2>Registro de Clientes</h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text" placeholder="Ingrese nombre">
+      <label>Correo:</label>
+      <input type="email" placeholder="Ingrese correo">
+      <label>Teléfono:</label>
+      <input type="tel" placeholder="Ingrese teléfono">
+      <button type="submit">Guardar</button>
+    </form>
+  </section>
+
+  <!-- Módulo Servicios Técnicos -->
+  <section id="servicios">
+    <h2>Servicios Técnicos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Servicio</th>
+          <th>Descripción</th>
+          <th>Técnico asignado</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Instalación</td>
+          <td>Instalación de redes</td>
+          <td>Juan Pérez</td>
+          <td><button>Asignar técnico</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Módulo Facturación -->
+  <section id="facturacion">
+    <h2>Facturación</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Cliente</th>
+          <th>Servicio</th>
+          <th>Valor</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ana Gómez</td>
+          <td>Mantenimiento</td>
+          <td>$180.000</td>
+          <td class="pendiente">Pendiente</td>
+        </tr>
+      </tbody>
+    </table>
+    <button>Generar factura</button>
+  </section>
+
+  <!-- Módulo Reportes -->
+  <section id="reportes">
+    <h2>Reportes</h2>
+    <button>Generar reporte de ventas</button>
+    <button>Generar reporte de servicios</button>
+    <canvas id="grafico"></canvas>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Autor: Ricardo Cano | Proyecto formativo SENA 2026</p>
+  </footer>
+
+</body>
+</html>
