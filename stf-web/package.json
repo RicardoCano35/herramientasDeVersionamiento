@@ -1,21 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "api-login",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "body-parser": "^2.3.0",
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
-=======
-  "name": "ga7_ev03",
+  "name": "stf-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,8 +7,8 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -51,6 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> 590715844aee6b75c20a14a05191cc1f02605e70
   }
 }
