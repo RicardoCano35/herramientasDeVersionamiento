@@ -1,0 +1,6 @@
+# ENDPOINTS de la API - Evidencia AA5-EV02
+# Autor: Ricardo Cano
+
+GET  http://localhost:3000/
+POST http://localhost:3000/register
+POST http://localhost:3000/login
